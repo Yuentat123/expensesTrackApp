@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mainLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="12dp">
+
+            <TextView
+                android:id="@+id/acc_id_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1"
+                android:textColor="#3D4886"
+                android:textSize="50sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/spend_category"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Spend Category"
+                app:layout_constraintStart_toStartOf="@id/spend_petrol_text"/>
+
+            <TextView
+                android:id="@+id/spend_petrol_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:text="Petrol"
+                app:layout_constraintStart_toEndOf="@+id/acc_id_text"
+                app:layout_constraintTop_toTopOf="@+id/acc_id_text" />
+
+            <TextView
+                android:id="@+id/spend_groceries_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Grocies"
+                app:layout_constraintStart_toStartOf="@+id/spend_petrol_text"
+                app:layout_constraintTop_toBottomOf="@+id/spend_petrol_text" />
+
+            <TextView
+                android:id="@+id/spend_dining_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Dining"
+                app:layout_constraintStart_toStartOf="@+id/spend_groceries_text"
+                app:layout_constraintTop_toBottomOf="@+id/spend_groceries_text" />
+
+            <TextView
+                android:id="@+id/spend_ewallet_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ewallet"
+                app:layout_constraintStart_toStartOf="@+id/spend_dining_text"
+                app:layout_constraintTop_toBottomOf="@+id/spend_dining_text" />
+
+            <TextView
+                android:id="@+id/spend_others_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Others"
+                app:layout_constraintStart_toStartOf="@+id/spend_ewallet_text"
+                app:layout_constraintTop_toBottomOf="@+id/spend_ewallet_text" />
+
+            <TextView
+                android:id="@+id/petrol_cashback_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="70dp"
+                android:text="Petrol Cashback"
+                app:layout_constraintStart_toEndOf="@id/spend_petrol_text"
+                app:layout_constraintTop_toTopOf="@+id/spend_petrol_text" />
+
+            <TextView
+                android:id="@+id/groceries_cashback_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Groceries Cashback"
+                app:layout_constraintStart_toStartOf="@+id/petrol_cashback_text"
+                app:layout_constraintTop_toBottomOf="@+id/petrol_cashback_text" />
+
+            <TextView
+                android:id="@+id/dining_cashback_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Dining Cashback"
+                app:layout_constraintStart_toStartOf="@+id/groceries_cashback_text"
+                app:layout_constraintTop_toBottomOf="@+id/groceries_cashback_text" />
+
+            <TextView
+                android:id="@+id/ewallet_cashback_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ewallet Cashback"
+                app:layout_constraintStart_toStartOf="@+id/dining_cashback_text"
+                app:layout_constraintTop_toBottomOf="@+id/dining_cashback_text" />
+
+            <TextView
+                android:id="@+id/others_cashback_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Others Cashback"
+                app:layout_constraintStart_toStartOf="@+id/ewallet_cashback_text"
+                app:layout_constraintTop_toBottomOf="@+id/ewallet_cashback_text" />
+
+            <TextView
+                android:id="@+id/cashback_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cash Back"
+                android:layout_marginBottom="8dp"
+                app:layout_constraintStart_toStartOf="@+id/petrol_cashback_text" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="250dp"
+                android:orientation="vertical"
+                tools:layout_editor_absoluteX="12dp"
+                tools:layout_editor_absoluteY="12dp">
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Total Money Spend:" />
+
+                <TextView
+                    android:id="@+id/total_spend_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="24dp"
+                    android:text="Total Money Spend" />
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="Total Money Cash Back:" />
+
+                <TextView
+                    android:id="@+id/total_cashback_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="60dp"
+                    android:text="TextView" />
+
+            </LinearLayout>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

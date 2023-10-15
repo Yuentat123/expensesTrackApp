@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F2F8FD"
+    tools:context=".AddActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="70dp"
+        android:gravity="center_horizontal"
+        android:text="Petrol Spend"
+        android:textStyle="bold"
+        android:textColor="#3D4886"
+        android:textSize="15dp" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="345dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="5dp">
+
+        <EditText
+            android:id="@+id/spend_petrol2"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:drawablePadding="10dp"
+            android:padding="10dp"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:inputType="numberDecimal"/>
+
+        <ImageView
+            android:id="@+id/reset_petrol"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/reset"
+            android:padding="10dp"/>
+    </LinearLayout>
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="70dp"
+        android:gravity="center_horizontal"
+        android:text="Grocies Spend"
+        android:textStyle="bold"
+        android:textColor="#3D4886"
+        android:textSize="15dp" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="345dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="5dp">
+
+        <EditText
+            android:id="@+id/spend_groceries2"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:drawablePadding="10dp"
+            android:padding="10dp"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:inputType="numberDecimal"/>
+
+        <ImageView
+            android:id="@+id/reset_groceries"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/reset"
+            android:padding="10dp"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="70dp"
+        android:gravity="center_horizontal"
+        android:text="Dining Spend"
+        android:textStyle="bold"
+        android:textColor="#3D4886"
+        android:textSize="15dp" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="345dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="5dp">
+
+        <EditText
+            android:id="@+id/spend_dining2"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:drawablePadding="10dp"
+            android:padding="10dp"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:inputType="numberDecimal"
+            />
+
+        <ImageView
+            android:id="@+id/reset_dining"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/reset"
+            android:padding="10dp"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="70dp"
+        android:gravity="center_horizontal"
+        android:text="Ewallet Spend"
+        android:textStyle="bold"
+        android:textColor="#3D4886"
+        android:textSize="15dp" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="345dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="5dp">
+
+        <EditText
+            android:id="@+id/spend_ewallet2"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:drawablePadding="10dp"
+            android:padding="10dp"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:inputType="numberDecimal"/>
+
+        <ImageView
+            android:id="@+id/reset_ewallet"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/reset"
+            android:padding="10dp"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="70dp"
+        android:gravity="center_horizontal"
+        android:text="Others Spend"
+        android:textStyle="bold"
+        android:textColor="#3D4886"
+        android:textSize="15dp" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="345dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="5dp">
+
+        <EditText
+            android:id="@+id/spend_others2"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:drawablePadding="10dp"
+            android:padding="10dp"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:inputType="numberDecimal" />
+
+        <ImageView
+            android:id="@+id/reset_others"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/reset"
+            android:padding="10dp"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="70dp"
+        android:gravity="center_horizontal"
+        android:text="Total Spend"
+        android:textStyle="bold"
+        android:textColor="#3D4886"
+        android:textSize="15dp"
+        />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="345dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="5dp">
+
+        <EditText
+            android:id="@+id/total_spend2"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:drawablePadding="10dp"
+            android:padding="10dp"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:background="@android:color/transparent"
+            android:focusable="false"
+            android:clickable="false"
+             />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/update_btn"
+        android:layout_width="325dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="10dp"
+        app:backgroundTint="#3D4886"
+        android:background="@drawable/rounded_btn"
+        android:text="Update"
+        android:textSize="18dp" />
+
+    <Button
+        android:id="@+id/delete_btn"
+        android:layout_width="325dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/rounded_btn"
+        android:text="Delete"
+        android:textColor="#E16464"
+        android:textSize="18dp"
+        app:backgroundTint="#3D4886" />
+
+</LinearLayout>
